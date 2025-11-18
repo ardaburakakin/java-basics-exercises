@@ -34,7 +34,7 @@ Depoda yer alan başlıca örnek uygulamalar şunlardır:
 - **Karekök, Üs ve Kare Hesaplama (`karekok us karesini bulma`)**  
   Matematiksel işlemleri konsol üzerinden hesaplayan küçük uygulama.
 
-Her klasör içerisinde ilgili konuya ait tek bir Java dosyası bulunmaktadır. Kodlar tamamen anlaşılabilir yorumlarla desteklenmiştir.
+Her klasör içerisinde ilgili konuya ait bir Java dosyası bulunmaktadır. Kodlar tamamen anlaşılabilir yorumlarla desteklenmiştir.
 
 ---
 
@@ -43,7 +43,9 @@ Her klasör içerisinde ilgili konuya ait tek bir Java dosyası bulunmaktadır. 
 Bu projeleri çalıştırmak için:
 
 - **Java JDK 8+**
-- Herhangi bir IDE (IntelliJ IDEA, VS Code, Eclipse, NetBeans) veya yalnızca terminal
+- Herhangi bir IDE (IntelliJ IDEA, VS Code, Eclipse, NetBeans)  
+  veya
+- Sadece terminal
 
 yeterlidir.
 
@@ -55,20 +57,22 @@ yeterlidir.
 
 ```bash
 git clone https://github.com/ardaburakakin/java-basics-exercises.git
-cd java-basics-exercises
-2. Derleyip çalıştırın
+cd java-basics-exercises 
+```
+
+### 2. Derleyip çalıştırın
 
 Örnek (ATM uygulaması):
-
+```
 javac "atm uygulamasi/atm uygulamasi.java"
 java "atm uygulamasi/atm uygulamasi"
+```
 
+Diğer klasörlerdeki Java dosyalarını da aynı yöntemle derleyip çalıştırabilirsiniz.
 
-Diğer klasörleri de aynı şekilde derleyip çalıştırabilirsiniz.
+Not: Dosya adlarında Türkçe karakterler bulunduğu için bazı sistemlerde terminalde tırnak kullanmanız gerekebilir.
 
-Not: Dosya adlarında Türkçe karakterler bulunduğu için bazı işletim sistemlerinde terminalden çalıştırırken tırnak kullanmanız gerekebilir.
-
-🚀 Yol Haritası (Gelecek Geliştirmeler)
+### 🚀 Yol Haritası (Gelecek Geliştirmeler)
 
 Daha fazla temel Java örneği eklenmesi
 
@@ -80,7 +84,7 @@ Kodların paket yapısına uygun hale getirilmesi
 
 Maven/Gradle proje yapısına geçiş
 
-📜 Lisans
+### 📜 Lisans
 
 Bu proje açık kaynak olup dilediğiniz gibi kullanılabilir, geliştirilebilir veya fork’lanabilir.
 
